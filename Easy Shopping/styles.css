@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+.containeer-all {
+  width: 100vw;
+  height: 100vh;
+}
+#containeer-left {
+  display: inline-block;
+  width: 60%;
+  padding-left: 136px;
+  margin-top: 326px;
+}
+#containeer-right {
+  height: 100vh;
+  display: inline-block;
+  width: 40%;
+  background: rgba(93, 93, 125, 0.16);
+  position: absolute;
+}
+header {
+  margin: 0 58px 0 57px;
+}
+img {
+  width: 456px;
+  height: 561.95px;
+  position: relative;
+  top: 17%;
+  right: 135px;
+}
+h1 {
+  color: #5d5d7d;
+  width: 368px;
+  font-size: 70px;
+  line-height: 80px;
+}
+p {
+  width: 540px;
+  color: #5d5d7d;
+  font-size: 28px;
+  line-height: 48px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  opacity: 0.6;
+}
+button {
+  width: 269px;
+  height: 62px;
+  flex-shrink: 0;
+  background-color: #9499ea;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.1));
+  flex-shrink: 0;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s;
+}
+button:hover {
+  transform: translateY(-3px);
+}
+a {
+  color: #5d5d7d;
+  font-size: 28px;
+  font-weight: 400;
+  margin-right: 41px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:nth-of-type(2) {
+  opacity: 0.4;
+}
+@media screen and (max-width: 900px) {
+  #containeer-left {
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+  }
+  #containeer-right {
+    height: 50vh;
+    width: 100%;
+    background: rgba(93, 93, 125, 0.16);
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  header {
+    display: none;
+  }
+  h1 {
+    width: auto;
+    color: #5d5d7d;
+    text-align: center;
+    font-size: 36px;
+    line-height: 52px;
+    margin: 58px 50px 0 50px
+  }
+  P {
+    width: auto;
+    color: #5d5d7d;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 15px 39px 15px 40px
+  }
+  button {
+    margin: 0 auto;
+    display: block;
+  }
+  img {
+    height: 322.51px;
+    position: absolute;
+    top: 60px;
+    left: 39px;
+    width: 75%;
+    padding: 10px;
+  }
+}
